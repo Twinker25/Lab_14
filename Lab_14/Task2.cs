@@ -21,10 +21,10 @@ namespace Lab_14
             Console.WriteLine($"Theatre: {theatre}");
             Console.WriteLine($"Genre: {genre}");
             Console.WriteLine($"Duration: {duration} minutes");
-            Console.WriteLine("Actors:");
+            Console.Write("Actors: ");
             foreach (var actor in actors)
             {
-                Console.WriteLine(actor);
+                Console.Write(actor + " ");
             }
         }
         public void Dispose()
