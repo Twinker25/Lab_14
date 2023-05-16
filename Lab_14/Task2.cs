@@ -24,7 +24,7 @@ namespace Lab_14
             Console.Write("Actors: ");
             foreach (var actor in actors)
             {
-                Console.Write(actor + " ");
+                Console.Write(actor + ", ");
             }
         }
         public void Dispose()
